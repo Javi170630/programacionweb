@@ -1,0 +1,89 @@
+/* ----General----- */
+a{
+outline: none;
+text-decoration: none;
+color: goldenrod;
+}
+p{color:#979797;}
+body{margin:0; padding:0;
+    }
+strong{color: #979797;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+
+/* ----encabezado----- */
+.fondo {
+    background-color: #333333;
+    color: #919191;
+}
+
+#header{display: block; width: 960px; margin: 0 auto;}
+#header{padding:20px 0;}
+#header #inicio {float:left; margin:0 0 20px 0;}
+#header #inicio h1{margin:0; padding:0; font-size: 36px; }
+#header #inicio h2{margin:0; padding:0; font-size: 13px; }
+
+#header nav{display:block; float:right; margin:10px 0 0 0; padding:20px 0; color:#C0BAB6; background-color:#232323;}
+#header nav ul{padding:0 20px;}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav li.last{margin-right:0;}
+#header nav li a{color:#C0BAB6; background-color:#232323;}
+#header nav li a:hover{color:#FF9900; background-color:#232323;}
+
+/* -----contenido----- */
+#contenido{display: block; width: 960px; margin: 0 auto;}
+#contenido{padding:30px 0;}
+#contenido section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
+#contenido .more{text-align:right;}
+.SegundaParte{display:block; float:left; margin:0 20px 0 0; width: 225px;}
+
+#contenido #homepage #services{padding:0 0 30px 0; border-bottom:1px solid #DEDEDE;}
+#contenido #homepage #services figure{display:inline; float:left;}
+#contenido #homepage #services strong{float:left; margin:8px 0 0 10px; padding:0; font-size:14px; font-weight:bold;}
+#contenido #homepage #services p{display:block; margin:0; padding:5px 0 0 0; clear:both; line-height:1.6em;}
+#latest{display: block; width: 960px; margin: 0 auto;}
+#contenido #homepage #latest{padding:0 0 30px 0; border-bottom:1px solid #DEDEDE;}
+#contenido #homepage #latest article figure ul{margin:0; padding:0; list-style:none;}
+#contenido #homepage #latest article figure ul li img{padding:4px; border:1px solid #D6D6D6;}
+#contenido #homepage #latest article figure figcaption{display:block; width:100%; margin-top:20px; text-align:right;}
+#contenido #homepage #latest a{float:right;}
+.lastbox{margin-right:0;}
+
+.TerceraParte{width: 300px; display:block; float:left; margin:0 20px 0 0;}
+
+#content{display: block; width: 960px; margin: 0 auto;}
+
+#contenido #content{float:left; width:630px; line-height:1.6em;}
+
+#contenido #content #posts ul{margin:0; padding:0; list-style:none;}
+#contenido #content #posts ul li{display:block; width:100%; margin-bottom:30px;}
+#contenido #content #posts ul li.last{ margin-bottom:0;}
+#contenido #content #posts ul li article figure img{float:left; width:180px; height:150px; margin:0; padding:4px; border:1px solid #D6D6D6;}
+#contenido #content #posts ul li article figure figcaption{display:block; float:right; width:410px;}
+#contenido #content #posts ul li article figure h2{font-size:14px;}
+
+/* ------columna derecha-----*/
+
+ #right_column{float:right; width:280px;}
+ #right_column h2.title{margin-bottom:15px; padding-bottom:15px; border-bottom:1px solid #DEDEDE;}
+
+ #right_column nav{display:block; width:100%;}
+ #right_column nav ul{margin:0; padding:0; list-style:none;}
+ #right_column nav li{margin:0 0 3px 0; padding:0;}
+ #right_column nav li.last{margin-bottom:0;}
+ #right_column nav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#666666; text-decoration:none; border-bottom:1px dotted #666666;}
+ #right_column nav a:hover{color:#FF9900; background-color:#FFFFFF;}
+
+/*-------Final----------*/
+.final {
+    background-color: #333333;
+    color: #919191;
+}
+#footer{display: block; width: 960px; height: auto; margin: auto;}
+
+#footer{padding:20px 0;}
+#footer p{margin:0; padding:0;}
+
+ address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;} 
+
